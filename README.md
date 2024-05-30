@@ -1,12 +1,8 @@
-### QUIC-based Real-Time Chat Service
-
-A Python-based real-time chat service leveraging the QUIC protocol to provide seamless, secure, and efficient communication. Features include robust message delivery, connection negotiation, and extensibility for future enhancements.
-
 # QUIC-based Real-Time Chat Service
 
 ## Overview
 
-This project is a Python-based real-time chat service designed using the QUIC protocol. It aims to provide users with a seamless messaging experience, supporting both casual conversations and group discussions with reliable and efficient message delivery.
+A Python-based real-time chat service leveraging the QUIC protocol to provide seamless, secure, and efficient communication. Features include robust message delivery, connection negotiation, and extensibility for future enhancements.
 
 ## Features
 
@@ -14,7 +10,6 @@ This project is a Python-based real-time chat service designed using the QUIC pr
 - **Message Exchange**: Clients initiate a connection using QUIC and can send messages to multiple clients simultaneously.
 - **Connection Negotiation**: During the initial handshake, connection parameters such as supported features and encryption settings are negotiated.
 - **Message History**: Messages persist on the screen during each run, maintaining the conversation flow.
-- **Security**: Ensures message integrity and user authentication to prevent impersonation and unauthorized access.
 
 ## Protocol Details
 
@@ -62,17 +57,17 @@ The protocol addresses performance metrics such as latency, throughput, and reso
    ```
 4. Run the server:
    ```bash
-   python server.py
+   python3 main.py server
    ```
 5. Run the client:
    ```bash
-   python client.py
+   python3 main.py client
    ```
 
 ## Usage
 
-1. Start the server by running `server.py`.
-2. Connect a client by running `client.py` with the appropriate connection parameters.
+1. Start the server by running `server`.
+2. Connect a client by running `client` with the appropriate connection parameters.
 3. Begin chatting with other connected clients.
 
 ## Contributing
