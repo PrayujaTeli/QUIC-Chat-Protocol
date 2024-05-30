@@ -1,18 +1,7 @@
-### GitHub Repository Description
-
----
-
-**QUIC-based Real-Time Chat Service**
+### QUIC-based Real-Time Chat Service
 
 A Python-based real-time chat service leveraging the QUIC protocol to provide seamless, secure, and efficient communication. Features include robust message delivery, connection negotiation, and extensibility for future enhancements.
 
----
-
-### README.md
-
-Copy and paste the following into your `README.md` file:
-
-```markdown
 # QUIC-based Real-Time Chat Service
 
 ## Overview
@@ -90,13 +79,7 @@ The protocol addresses performance metrics such as latency, throughput, and reso
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
-This project was developed as part of the CS544 coursework. Special thanks to the course instructors and peers for their support and feedback.
+This project was developed as part of the CS544 coursework. Special thanks to the course instructors Brian Mitchell.
 ```
-
-You can now copy and paste the above sections into your GitHub repository description and `README.md` file respectively.
